@@ -41,10 +41,11 @@ script :
   - ls -lah website/
 
 deploy:
-  provider: pages
+  provider: releases
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  local_dir: website/
-  target_branch: $TARGETBRANCH
+  api_key: Nn4Uij5ldarDKdUmFFfYPg
+  file:
+    - website/louvain_linux.tar.gz
+    - website/louvain_osx.tar.gz 
   on:
-    branch: master
+    tags: true

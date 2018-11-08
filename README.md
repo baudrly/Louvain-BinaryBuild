@@ -1,5 +1,8 @@
 # Louvain-BinaryBuild
 
+[![Build Status](https://travis-ci.org/baudrly/Louvain-BinaryBuild.svg?branch=master)](https://travis-ci.org/baudrly/Louvain-BinaryBuild)
+[![Appveyor Status](https://ci.appveyor.com/api/projects/status/github/baudrly/Louvain-BinaryBuild?branch=master&svg=true)](https://ci.appveyor.com/project/baudrly/louvain-binarybuild)
+
 A project to host binary artifacts for Louvain Community Detection Algorithm. 
 This project builds binaries for linux, Windows and OSX using public providers : [travis-ci](https://travis-ci.org/) and [Appveyor](https://www.appveyor.com/).  
 
